@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Nokwy;
+    src: url("src/assets/fonts/Nokwy.otf");
+}
+
+@font-face {
+    font-family: Guminert;
+    src: url("src/assets/fonts/guminert-6y5gd.ttf");
+}
