@@ -3,8 +3,8 @@ import { useEffect, useState } from "react"
 function MenuButton({handlestate}:any){
     return(
         <svg onClick={handlestate} className="my-auto cursor-pointer relative p-1 border-black bord box-content left-3" width="56" height="13" viewBox="0 0 28 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 0H21" stroke="black" stroke-width="1.4" stroke-linecap="round"/>
-                    <path d="M1 5H17" stroke="black" stroke-width="1.4" stroke-linecap="round"/>
+                    <path d="M1 0H19" stroke="black" stroke-width="1.4" stroke-linecap="round"/>
+                    <path d="M1 5H15" stroke="black" stroke-width="1.4" stroke-linecap="round"/>
         </svg>
     )
 }
