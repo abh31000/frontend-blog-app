@@ -11,7 +11,7 @@ function MenuButton({handlestate}:any){
 
 function Menu(){
     return (
-        <div className="relative font-extrabold font-[Guminert] select-none h-72 px-16 bg-white">
+        <div className="absolute border-b-2 border-black w-full font-extrabold font-[Guminert] select-none h-72 px-16 bg-white">
             <h1 className="text-[64px]" ><a href="#">Posts</a></h1>
             <h1 className="text-[64px]"><a href="#">Newletter</a></h1>
         </div>
