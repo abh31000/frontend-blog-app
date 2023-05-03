@@ -10,8 +10,8 @@ export default function Navbar(){
         <>
             <Media queries={{
                 small: "(max-width: 400px)",
-                medium: "(min-width: 401px) and (max-width: 600px)",
-                large: "(min-width: 601px)"
+                medium: "(min-width: 401px) and (max-width: 950px)",
+                large: "(min-width: 951px)"
             }}>
                 {matches => (
                     <Fragment>
