@@ -9,8 +9,8 @@ export default function Navbar(){
     return(
         <>
             <Media queries={{
-                small: "(max-width: 400px)",
-                medium: "(min-width: 401px) and (max-width: 950px)",
+                small: "(max-width: 600px)",
+                medium: "(min-width: 601px) and (max-width: 950px)",
                 large: "(min-width: 951px)"
             }}>
                 {matches => (
