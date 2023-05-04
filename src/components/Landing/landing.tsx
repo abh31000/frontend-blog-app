@@ -10,8 +10,8 @@ export default function Landing(){
         <>
             <Media queries={{
                 small: "(max-width: 600px)",
-                medium: "(min-width: 601px) and (max-width: 950px)",
-                large: "(min-width: 951px)"
+                medium: "(min-width: 601px) and (max-width: 1015px)",
+                large: "(min-width: 1016px)"
             }}>
                 {matches => (
                     <Fragment>
